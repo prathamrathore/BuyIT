@@ -1,0 +1,120 @@
+
+
+
+
+
+body{
+  padding-top: 50px;
+ 
+}
+#headerwrapper{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(men.png);
+  background-repeat: no-repeat;
+  height: 600px;
+  background-attachment: fixed;
+  background-size: 100% 700px;
+  background-position-y: 50px;
+  
+
+ 
+ 
+}
+#logotext{
+  height: 510px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+  border-radius: 50%;
+  
+
+}
+#partial-headerwrapper{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url(f2.jpg);
+  background-repeat: no-repeat;
+  height: 250px;
+  background-attachment: fixed;
+  background-size: 100% 700px;
+  background-position-y: 25px;
+  
+
+ 
+ 
+}
+#partial-logotext{
+  height: 160px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+  border-radius: 50%;
+  
+
+}
+
+#logotext p{
+ 
+  margin-top: 20px;
+  padding: 40px;
+  margin-left: 20px;
+}
+
+#logotext img{
+  opacity: 0.7;
+  height: 1auto;
+  width: 350px;
+  margin-left: 200px;
+  margin-bottom: 50px;
+  margin-top: -20px;
+  border-radius: 15px;
+}
+#footer{
+  margin-top: 50px;
+ 
+  
+
+}
+.table-auto{
+  width: auto;
+  margin: 0 auto;
+}
+#add-product-btn{
+  margin-top: -35px;
+}
+#login-form{
+  width:50%;
+  height:60%;
+  border: 2px solid #000;
+  border-radius: 15px;
+  box-shadow: 7px 7px 15px rgba(0,0,0,0.6);
+  margin: 7% auto;
+  padding:15px;
+  background-color: #000;
+  color:white;
+}
+#email,#password{
+
+  background-color: #000;
+  border:none;
+  border-bottom: 1px solid white;
+}
+.avtar{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  position:absolute;
+  top:39px;
+  left:calc(50% - 50px);
+}
